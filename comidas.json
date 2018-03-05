@@ -1,0 +1,182 @@
+{
+  "comidas": [
+    {
+        "nombre": "Lentejas",
+        "tipo": "guiso",
+        "ingredientes": [
+            "lentejas",
+            "cebolla",
+            "compango",
+            "ajo",
+            "pimiento",
+            "zanahoria",
+            "patata",
+            "puerro"
+        ]
+    },
+    {
+        "nombre": "Judías",
+        "tipo": "guiso",
+        "ingredientes": [
+            "judías",
+            "cebolla",
+            "compango",
+            "ajo",
+            "pimiento",
+            "zanahoria",
+            "patata",
+            "puerro"
+        ]
+    },
+    {
+        "nombre": "Cocido",
+        "tipo": "guiso",
+        "ingredientes": [
+            "garbanzos",
+            "puerro",
+            "apio",
+            "zanahoria",
+            "patata",
+            "espinazo",
+            "morcillo",
+            "gallina",
+            "hueso jamón",
+            "chorizo",
+            "tocino"
+        ]
+    },
+    {
+        "nombre": "Berenjenas rellenas",
+        "tipo": "unico",
+        "ingredientes": [
+            "berenjena",
+            "carne picada",
+            "queso rallado",
+            "bechamel"
+        ]
+    },
+    {
+        "nombre": "Magro con pimientos",
+        "tipo": "segundo",
+        "ingredientes": [
+            "cerdo",
+            "pimiento"
+        ]
+    },
+    {
+        "nombre": "Pollo con setas",
+        "tipo": "unico",
+        "ingredientes": [
+            "pollo",
+            "setas",
+            "bacon",
+            "nata"
+        ]
+    },
+    {
+        "nombre": "Carbonara",
+        "tipo": "unico",
+        "ingredientes": [
+            "pollo",
+            "pasta",
+            "bacon",
+            "nata"
+        ]
+    },
+    {
+        "nombre": "Bolognesa",
+        "tipo": "unico",
+        "ingredientes": [
+            "carne picada",
+            "tomate frito",
+            "pasta"
+        ]
+    },
+    {
+        "nombre": "Pavo con manzana",
+        "tipo": "segundo",
+        "ingredientes": [
+            "pavo",
+            "puerro",
+            "manzana",
+            "nata"
+        ]
+    },
+    {
+        "nombre": "Estofado",
+        "tipo": "guiso",
+        "ingredientes": [
+            "ternera",
+            "tomate",
+            "zanahoria",
+            "cebolla",
+            "ajo",
+            "patata",
+            "vino tinto"
+        ]
+    },
+    {
+        "nombre": "Ensaladilla",
+        "tipo": "unico",
+        "ingredientes": [
+            "patata",
+            "huevos",
+            "encurtidos",
+            "zanahoria",
+            "aceitunas",
+            "alcachofas"
+        ]
+    },
+    {
+        "nombre": "Ensaladilla ahumados",
+        "tipo": "unico",
+        "ingredientes": [
+            "patata",
+            "huevos",
+            "encurtidos",
+            "zanahoria",
+            "aceitunas",
+            "alcachofas",
+            "salmón ahumado",
+            "bacalao ahumado",
+            "trucha ahumada"
+        ]
+    },
+    {
+        "nombre": "Albóndigas",
+        "tipo": "unico",
+        "ingredientes": [
+            "carne picada",
+            "ajo",
+            "pan rallado",
+            "huevo",
+            "cebolla",
+            "zanahoria"
+        ]
+    },
+    {
+        "nombre": "Pollo al chilindrón",
+        "tipo": "unico",
+        "ingredientes": [
+            "pollo",
+            "almendras",
+            "pimiento",
+            "cebolla",
+            "ajo",
+            "vino blanco",
+            "jamón serrano",
+            "tomate"
+        ]
+    },
+    {
+        "nombre": "Pollo asado",
+        "tipo": "unico",
+        "ingredientes": [
+            "pollo entero",
+            "vino blanco",
+            "patata",
+            "cebolla"
+        ]
+    }
+  ]
+}
