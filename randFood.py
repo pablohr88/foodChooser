@@ -4,8 +4,9 @@ import time
 import random
 import calendar
 import json
+import collections
 random.seed(int(time.time() * 1000))
-
+ingredientes = []
 weekDays = 5
 comidas = json.load(open("comidas.json", encoding='utf-8'))
 # cenas=json.load(open("cenas.json", encoding='utf-8'))
@@ -25,13 +26,25 @@ semanaCenas = []
 # randCenas = list(random.sample(range(0,len(cenas["cenas"])), 5))
 
 for i in range(weekDays):
-    semanaComidas.append(comidas["comidas"][randComidas[i]]["nombre"])
-    semanaCenas.append(comidas["cenas"][randCenas[i]]["nombre"])
+    semanaComidas.append(comidas["comidas"][randComidas[i]])
+    semanaCenas.append(comidas["cenas"][randCenas[i]])
 
 print('<!DOCTYPE html>\n<html>\n<head>\n\t<link rel="stylesheet" href="style.css">\n\t<meta charset="UTF-8">\n</head>\n<body>')
 print("\t<table>")
 print('\t\t<tr id="cabecera"><th>Día</th><th>Comida</th><th>Cena</th></tr>')
 for i in range(weekDays):
-    print('\t\t<tr id="cuerpo"><th>' + calendar.day_name[i] + '</th><th>' + semanaComidas[i] + '</th><th>' + semanaCenas[i] + '</th></tr>')
+    print('\t\t<tr id="cuerpo"><th>' + calendar.day_name[i] + '</th><th>' + semanaComidas[i]["nombre"] + '</th><th>' + semanaCenas[i]["nombre"] + '</th></tr>')
 print('\t</table>')
 print('</body>\n</html>')
+print("\n*************************\n")
+
+for i in semanaComidas:
+    ingredientes.extend(i["ingredientes"])
+
+for i in semanaCenas:
+    ingredientes.extend(i["ingredientes"])
+
+print("***LISTA DE LA COMPRA***")
+salida = str(collections.Counter(ingredientes)).replace(', ', '\n')
+salida = salida.replace('Counter({', '')
+print(salida.replace('})', ''))
