@@ -178,5 +178,90 @@
             "cebolla"
         ]
     }
+  ],
+  "cenas": [
+    {
+      "nombre": "",
+      "tipo": "",
+      "ingredientes": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "nombre": "Gallos",
+      "tipo": "pescado",
+      "ingredientes": [
+        "gallos",
+        "harina"
+      ]
+    },
+    {
+      "nombre": "Judias verdes",
+      "tipo": "verdura",
+      "ingredientes": [
+        "judias verdes",
+        "patata"
+      ]
+    },
+    {
+      "nombre": "Tosta de salmón",
+      "tipo": "tosta",
+      "ingredientes": [
+        "salmón ahumado",
+        "pan",
+        "huevo",
+        "philadelphia"
+      ]
+    },
+    {
+      "nombre": "Tosta de solomillo",
+      "tipo": "tosta",
+      "ingredientes": [
+        "pan",
+        "solomillo de cerdo",
+        "queso"
+      ]
+    },
+    {
+      "nombre": "Esfera de salmón",
+      "tipo": "tosta",
+      "ingredientes": [
+        "aguacate",
+        "salmón ahumado",
+        "huevo",
+        "pan de molde"
+      ]
+    },
+    {
+      "nombre": "Tortilla de patata",
+      "tipo": "huevo",
+      "ingredientes": [
+        "huevos",
+        "patata",
+        "cebolla"
+      ]
+    },
+    {
+      "nombre": "Tortillas variadas",
+      "tipo": "huevo",
+      "ingredientes": [
+        "huevos",
+        "atún",
+        "queso",
+        "jamón cocido"
+      ]
+    },
+    {
+      "nombre": "Acelgas rehogadas",
+      "tipo": "verdura",
+      "ingredientes": [
+        "acelgas",
+        "huevo"
+      ]
+    },
+    
   ]
 }
+// ["Gallos", "Judías verdes", "Tosta salmón", "Torta cerdo queso", "Esfera salmón aguacate", "Tortilla patata", "Tortilla de ...", "Acelgas", "Espinacas", "Pencas", "Croquetas", "Alitas", "Embutido"]
