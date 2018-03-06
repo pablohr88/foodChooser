@@ -181,15 +181,6 @@
   ],
   "cenas": [
     {
-      "nombre": "",
-      "tipo": "",
-      "ingredientes": [
-        "",
-        "",
-        ""
-      ]
-    },
-    {
       "nombre": "Gallos",
       "tipo": "pescado",
       "ingredientes": [
@@ -261,7 +252,35 @@
         "huevo"
       ]
     },
-    
+    {
+      "nombre": "Pencas",
+      "tipo": "verdura",
+      "ingredientes": [
+        "pedir a Luis"
+      ]
+    },
+    {
+      "nombre": "Croquetas",
+      "tipo": "fritos",
+      "ingredientes": [
+        "pedir a Luis"
+      ]
+    },
+    {
+      "nombre": "Alitas",
+      "tipo": "fritos",
+      "ingredientes": [
+        "alitas"
+      ]
+    },
+    {
+      "nombre": "Embutido",
+      "tipo": "tosta",
+      "ingredientes": [
+        "embutido",
+        "pan",
+        "pan de molde"
+      ]
+    }
   ]
 }
-// ["Gallos", "Judías verdes", "Tosta salmón", "Torta cerdo queso", "Esfera salmón aguacate", "Tortilla patata", "Tortilla de ...", "Acelgas", "Espinacas", "Pencas", "Croquetas", "Alitas", "Embutido"]
