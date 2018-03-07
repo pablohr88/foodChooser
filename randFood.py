@@ -35,8 +35,6 @@ print('\t\t<tr id="cabecera"><th>Día</th><th>Comida</th><th>Cena</th></tr>')
 for i in range(weekDays):
     print('\t\t<tr id="cuerpo"><th>' + calendar.day_name[i] + '</th><th>' + semanaComidas[i]["nombre"] + '</th><th>' + semanaCenas[i]["nombre"] + '</th></tr>')
 print('\t</table>')
-print('</body>\n</html>')
-print("\n*************************\n")
 
 for i in semanaComidas:
     ingredientes.extend(i["ingredientes"])
@@ -44,7 +42,15 @@ for i in semanaComidas:
 for i in semanaCenas:
     ingredientes.extend(i["ingredientes"])
 
-print("***LISTA DE LA COMPRA***")
-salida = str(collections.Counter(ingredientes)).replace(', ', '\n')
-salida = salida.replace('Counter({', '')
-print(salida.replace('})', ''))
+ingredientes = collections.Counter(ingredientes)
+
+print("\t<br><br>***LISTA DE LA COMPRA***")
+print("\t<ul>")
+for ing, num in ingredientes.items():
+    print("\t\t<li>" + str(num) + "x " + ing + "</li>")
+print("\t</ul>")
+
+# salida = salida.replace('Counter({', '')
+# print(salida.replace('})', ''))
+
+print('</body>\n</html>')
