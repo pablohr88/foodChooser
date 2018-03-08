@@ -29,7 +29,9 @@ for i in range(weekDays):
     semanaComidas.append(comidas["comidas"][randComidas[i]])
     semanaCenas.append(comidas["cenas"][randCenas[i]])
 
-print('<!DOCTYPE html>\n<html>\n<head>\n\t<link rel="stylesheet" href="style.css">\n\t<meta charset="UTF-8">\n</head>\n<body>')
+print('From: pablohr88@gmail.com\nMIME-Version: 1.0\nContent-Type: text/html\nSubject: Prueba de menú\n\n')
+
+print('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">\n<html>\n<head>\n\t<link rel="stylesheet" href="style.css">\n\t<meta charset="UTF-8">\n</head>\n<body>')
 print("\t<table>")
 print('\t\t<tr id="cabecera"><th>Día</th><th>Comida</th><th>Cena</th></tr>')
 for i in range(weekDays):
