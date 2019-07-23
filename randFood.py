@@ -9,21 +9,11 @@ random.seed(int(time.time() * 1000))
 ingredientes = []
 weekDays = 5
 comidas = json.load(open("comidas.json", encoding='utf-8'))
-# cenas=json.load(open("cenas.json", encoding='utf-8'))
-# print(comidas)
-# print("\n\n")
-# for i in comidas["comidas"]:
-#  print(i["nombre"])
-
-# cenas = ["Gallos", "Judías verdes", "Tosta salmón", "Torta cerdo queso", "Esfera salmón aguacate", "Tortilla patata", "Tortilla de ...", "Acelgas", "Espinacas", "Pencas", "Croquetas", "Alitas", "Embutido"]
-# semanaComida = list(random.sample(range(0,len(comidas["comidas"])), 5))
-# semanaCena = list(random.sample(range(0,len(cenas["cenas"])), 5))
 
 randComidas = list(random.sample(range(0, len(comidas["comidas"])), weekDays))
 semanaComidas = []
 randCenas = list(random.sample(range(0, len(comidas["cenas"])), weekDays))
 semanaCenas = []
-# randCenas = list(random.sample(range(0,len(cenas["cenas"])), 5))
 
 for i in range(weekDays):
     semanaComidas.append(comidas["comidas"][randComidas[i]])
