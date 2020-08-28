@@ -1,11 +1,11 @@
-- Parrillada de verduras
-- Rodaballo al horno con patatas
-- Hamburguesas de pollo, queso y espinacas
-- Ensalada de gambas, aguacate y piña
-- Salmorejo
-- Salmorejo de remolacha con queso de cabra
-- Albóndigas con salsa de almendras
-- Calabacines rellenos
+X Parrillada de verduras
+X Rodaballo al horno con patatas
+X Hamburguesas de pollo, queso y espinacas
+X Ensalada de gambas, aguacate y piña
+X Salmorejo
+X Salmorejo de remolacha con queso de cabra
+X Albóndigas con salsa de almendras
+X Calabacines rellenos
 - San Jacobos de calabacín
 - Ensalada de bacalao y garbanzos
 - Merluza rebozada

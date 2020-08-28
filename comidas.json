@@ -1,6 +1,56 @@
 {
   "comidas": [
     {
+      "nombre": "Calabacines rellenos",
+      "tipo": "carne",
+      "ingredientes": [
+        "carne picada mixta",
+        "calabacin",
+        "tomate frito",
+        "queso rallado",
+        "bechamel"
+      ]
+    },
+    {   
+      "nombre": "Albóndigas en salsa de almendras",
+      "tipo": "carne",
+      "ingredientes": [
+        "carne picada mixta",
+        "almendras",
+        "cebolla",
+        "huevo",
+        "pan",
+        "nata"
+      ]
+    },    
+    {
+      "nombre": "Salmorejo de remolacha y queso de cabra",
+      "tipo": "verdura",
+      "ingredientes": [
+        "remolacha",
+        "rulo de cabra",
+        "pan",
+        "tomate"
+      ]
+    },    
+    {
+      "nombre": "Salmorejo",
+      "tipo": "verdura",
+      "ingredientes": [
+        "tomate",
+        "pan"
+      ]
+    },    
+    {
+      "nombre": "Rodaballo al horno",
+      "tipo": "pescado",
+      "ingredientes": [
+        "rodaballo",
+        "patatas",
+        "puerro"
+      ]
+    },    
+    {
         "nombre": "Lentejas",
         "tipo": "guiso",
         "ingredientes": [
@@ -179,7 +229,38 @@
         ]
     }
   ],
-  "cenas": [
+  "cenas": [  
+    {
+      "nombre": "Ensalada de gambas, aguacate y piña",
+      "tipo": "ensalada",
+      "ingredientes": [
+        "ensalada",
+        "gambas",
+        "aguacate",
+        "piña"
+      ]
+    },
+    {
+      "nombre": "Hamburguesas de pollo, queso y espinacas",
+      "tipo": "carne",
+      "ingredientes": [
+        "pechuga de pollo",
+        "parmesano",
+        "espinacas"
+      ]
+    },
+    {
+      "nombre": "Parrillada de verduras",
+      "tipo": "verdura",
+      "ingredientes": [
+        "calabacín",
+        "berenjena",
+        "tomate",
+        "espárragos",
+        "cebolla",
+        "pimientos"
+      ]
+    },
     {
       "nombre": "Gallos",
       "tipo": "pescado",
@@ -198,7 +279,7 @@
     },
     {
       "nombre": "Tosta de salmón",
-      "tipo": "tosta",
+      "tipo": "pescado",
       "ingredientes": [
         "salmón ahumado",
         "pan",
@@ -208,7 +289,7 @@
     },
     {
       "nombre": "Tosta de solomillo",
-      "tipo": "tosta",
+      "tipo": "carne",
       "ingredientes": [
         "pan",
         "solomillo de cerdo",
@@ -217,7 +298,7 @@
     },
     {
       "nombre": "Esfera de salmón",
-      "tipo": "tosta",
+      "tipo": "pescado",
       "ingredientes": [
         "aguacate",
         "salmón ahumado",
@@ -275,7 +356,7 @@
     },
     {
       "nombre": "Embutido",
-      "tipo": "tosta",
+      "tipo": "carne",
       "ingredientes": [
         "embutido",
         "pan",
