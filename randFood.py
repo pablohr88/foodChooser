@@ -9,10 +9,10 @@ import collections
 import sys
 
 random.seed(int(time.time() * 1000))
-ingredientes = []
 weekDays = 5
 comidas = json.load(open("comidas.json", encoding='windows-1252'))
 
+ingredientes = []
 randComidas = list(random.sample(range(0, len(comidas["comidas"])), weekDays))
 semanaComidas = []
 randCenas = list(random.sample(range(0, len(comidas["cenas"])), weekDays))
@@ -25,8 +25,6 @@ for i in range(weekDays):
 original_stdout = sys.stdout
 with open("menu.html", "w", encoding='windows-1252') as file:
     sys.stdout = file
-    print('From: pablohr88@gmail.com\nMIME-Version: 1.0\nContent-Type: text/html\n\
-           Subject: Menú semanal <3\n\n')
 
     print('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//ES" \
         "http://www.w3.org/TR/html4/loose.dtd">\n<html>\n<head>\n\t<link \
