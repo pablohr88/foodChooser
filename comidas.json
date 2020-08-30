@@ -1,7 +1,7 @@
 {
   "comidas": [ 
     {
-      "nombre": "Jud铆as con almejas",
+      "nombre": "Jud韆s con almejas",
       "tipo": "legumbre",
       "ingredientes": [
         "judias blancas",
@@ -34,7 +34,7 @@
       "tipo": "carne blanca",
       "ingredientes": [
         "solomillo de cerdo",
-        "champi帽ones",
+        "champi駉nes",
         "nata",
         "vino blanco"
       ]
@@ -45,7 +45,7 @@
       "ingredientes": [
         "pechuga de pollo",
         "leche de coco",
-        "pi帽a"  
+        "pi馻"  
       ]
     },
     {
@@ -61,7 +61,7 @@
       "tipo": "fritos",
       "ingredientes": [
         "pechuga de pollo",
-        "jam贸n serrano",
+        "jam髇 serrano",
         "queso en lonchas",
         "pan rallado",
         "huevos"
@@ -72,7 +72,7 @@
       "tipo": "fritos",
       "ingredientes": [
         "cinta de lomo fresca",
-        "jam贸n serrano",
+        "jam髇 serrano",
         "queso en lonchas",
         "pan rallado",
         "huevos"
@@ -90,7 +90,7 @@
       "nombre": "San Jacobos",
       "tipo": "fritos",
       "ingredientes": [
-        "jam贸n cocido",
+        "jam髇 cocido",
         "queso en lonchas",
         "pan rallado",
         "huevos"
@@ -108,12 +108,12 @@
       ]
     },
     {
-      "nombre": "Huevos rotos con jam贸n",
+      "nombre": "Huevos rotos con jam髇",
       "tipo": "huevo",
       "ingredientes": [
         "huevos",
         "patatas",
-        "jam贸n serrano"
+        "jam髇 serrano"
       ]
     },
     {
@@ -127,23 +127,23 @@
       ]
     },
     {
-      "nombre": "Lasa帽a de at煤n",
+      "nombre": "Lasa馻 de at鷑",
       "tipo": "arroz y pasta",
       "ingredientes": [
-        "placas de lasa帽a",
-        "at煤n en escabeche",
+        "placas de lasa馻",
+        "at鷑 en escabeche",
         "tomate frito",
         "queso rallado",
         "bechamel"
       ]
     },
     {
-      "nombre": "Patatas desatin谩s",
+      "nombre": "Patatas desatin醩",
       "tipo": "ensalada",
       "ingredientes": [
         "patatas",
         "huevos",
-        "at煤n"
+        "at鷑"
       ]
     },
     {
@@ -162,7 +162,7 @@
         "pasta para ensalada",
         "tomate",
         "dados de queso",
-        "jam贸n cocido",
+        "jam髇 cocido",
         "aguacate"
       ]
     },
@@ -181,7 +181,7 @@
       "tipo": "pescado",
       "ingredientes": [
         "chipirones",
-        "jam贸n serrano",
+        "jam髇 serrano",
         "huevos",
         "cebolla",
         "vino blanco"
@@ -201,7 +201,7 @@
       "ingredientes": [
         "garbanzos",
         "bacalao desmigado",
-        "lim贸n"
+        "lim髇"
       ]
     },
     {
@@ -216,7 +216,7 @@
       ]
     },
     {   
-      "nombre": "Alb贸ndigas en salsa de almendras",
+      "nombre": "Alb髇digas en salsa de almendras",
       "tipo": "carne roja",
       "ingredientes": [
         "carne picada mixta",
@@ -269,10 +269,10 @@
         ]
     },
     {
-        "nombre": "Jud铆as blancas",
+        "nombre": "Jud韆s blancas",
         "tipo": "legumbre",
         "ingredientes": [
-            "jud铆as blancas",
+            "jud韆s blancas",
             "cebolla",
             "compango",
             "ajo",
@@ -294,7 +294,7 @@
             "espinazo",
             "morcillo",
             "gallina",
-            "hueso jam贸n",
+            "hueso jam髇",
             "chorizo",
             "tocino"
         ]
@@ -391,13 +391,13 @@
             "zanahoria",
             "aceitunas",
             "alcachofas",
-            "salm贸n ahumado",
+            "salm髇 ahumado",
             "bacalao ahumado",
             "trucha ahumada"
         ]
     },
     {
-        "nombre": "Alb贸ndigas",
+        "nombre": "Alb髇digas",
         "tipo": "carne roja",
         "ingredientes": [
             "carne picada",
@@ -409,7 +409,7 @@
         ]
     },
     {
-        "nombre": "Pollo al chilindr贸n",
+        "nombre": "Pollo al chilindr髇",
         "tipo": "aves",
         "ingredientes": [
             "pollo",
@@ -418,7 +418,7 @@
             "cebolla",
             "ajo",
             "vino blanco",
-            "jam贸n serrano",
+            "jam髇 serrano",
             "tomate"
         ]
     },
@@ -451,11 +451,11 @@
       ]
     },       
     {
-      "nombre": "Contramuslos de pollo con lim贸n",
+      "nombre": "Contramuslos de pollo con lim髇",
       "tipo": "aves",
       "ingredientes": [
         "contramuslos de pollo",
-        "lim贸n"
+        "lim髇"
       ]
     },       
     {
@@ -466,12 +466,12 @@
       ]
     },       
     {
-      "nombre": "Setas rebozadas con alioli y jam贸n",
+      "nombre": "Setas rebozadas con alioli y jam髇",
       "tipo": "fritos",
       "ingredientes": [
         "setas",
         "alioli",
-        "jam贸n serrano",
+        "jam髇 serrano",
         "pan rallado",
         "huevos"
       ]
@@ -480,17 +480,17 @@
       "nombre": "Tosta de secreto y brie",
       "tipo": "carne blanca",
       "ingredientes": [
-        "secreto ib茅rico",
+        "secreto ib閞ico",
         "queso brie",
         "pan"
       ]
     },       
     {
-      "nombre": "Empanadillas de at煤n",
+      "nombre": "Empanadillas de at鷑",
       "tipo": "fritos",
       "ingredientes": [
         "masa de empanadillas",
-        "at煤n en escabeche",
+        "at鷑 en escabeche",
         "huevos"
       ]
     },       
@@ -524,10 +524,10 @@
       ]
     },       
     {
-      "nombre": "Br贸coli rehogado",
+      "nombre": "Br骳oli rehogado",
       "tipo": " verdura",
       "ingredientes": [
-        "br贸coli"
+        "br骳oli"
       ]
     },       
     {
@@ -546,7 +546,7 @@
       "ingredientes": [
         "espinacas",
         "bechamel",
-        "jam贸n serrano"
+        "jam髇 serrano"
       ]
     },
     {
@@ -557,23 +557,23 @@
       ]
     },
     {
-      "nombre": "San jacobos de calabac铆n",
+      "nombre": "San jacobos de calabac韓",
       "tipo": "verdura",
       "ingredientes": [
-        "calabac铆n",
-        "jam贸n cocido",
+        "calabac韓",
+        "jam髇 cocido",
         "queso",
         "huevos"
       ]
     },
     {
-      "nombre": "Ensalada de gambas, aguacate y pi帽a",
+      "nombre": "Ensalada de gambas, aguacate y pi馻",
       "tipo": "ensalada",
       "ingredientes": [
         "ensalada",
         "gambas",
         "aguacate",
-        "pi帽a"
+        "pi馻"
       ]
     },
     {
@@ -589,10 +589,10 @@
       "nombre": "Parrillada de verduras",
       "tipo": "verdura",
       "ingredientes": [
-        "calabac铆n",
+        "calabac韓",
         "berenjena",
         "tomate",
-        "esp谩rragos",
+        "esp醨ragos",
         "cebolla",
         "pimientos"
       ]
@@ -614,13 +614,13 @@
       ]
     },
     {
-      "nombre": "Tosta de salm贸n",
+      "nombre": "Tosta de salm髇",
       "tipo": "pescado",
       "ingredientes": [
-        "salm贸n ahumado",
+        "salm髇 ahumado",
         "pan",
         "huevos",
-        "philadelphia"
+        "queso crema"
       ]
     },
     {
@@ -633,11 +633,11 @@
       ]
     },
     {
-      "nombre": "Esfera de salm贸n",
+      "nombre": "Esfera de salm髇",
       "tipo": "pescado",
       "ingredientes": [
         "aguacate",
-        "salm贸n ahumado",
+        "salm髇 ahumado",
         "huevos",
         "pan de molde"
       ]
@@ -656,9 +656,9 @@
       "tipo": "huevo",
       "ingredientes": [
         "huevos",
-        "at煤n",
+        "at鷑",
         "queso",
-        "jam贸n cocido"
+        "jam髇 cocido"
       ]
     },
     {
