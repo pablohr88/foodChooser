@@ -1,8 +1,212 @@
 {
-  "comidas": [
+  "comidas": [ 
+    {
+      "nombre": "Judías con almejas",
+      "tipo": "legumbre",
+      "ingredientes": [
+        "judias blancas",
+        "almejas"
+      ]
+    },
+    {
+      "nombre": "Arroz a la cubana",
+      "tipo": "arroz y pasta",
+      "ingredientes": [
+        "arroz",
+        "huevos",
+        "tomate frito",
+        "platano"
+      ]
+    },
+    {
+      "nombre": "Risotto de pollo y setas",
+      "tipo": "arroz y pasta",
+      "ingredientes": [
+        "arroz",
+        "pechuga de pollo",
+        "setas",
+        "caldo de pollo",
+        "queso parmesano"
+      ]
+    },
+    {
+      "nombre": "Solomillo strogonoff",
+      "tipo": "carne blanca",
+      "ingredientes": [
+        "solomillo de cerdo",
+        "champiñones",
+        "nata",
+        "vino blanco"
+      ]
+    },
+    {
+      "nombre": "Pollo al curry",
+      "tipo": "pollo",
+      "ingredientes": [
+        "pechuga de pollo",
+        "leche de coco",
+        "piña"  
+      ]
+    },
+    {
+      "nombre": "Filete de ternera con patatas",
+      "tipo": "carne roja",
+      "ingredientes": [
+        "filete de ternera",
+        "patatas"
+      ]
+    },
+    {
+      "nombre": "Libritos de pollo",
+      "tipo": "fritos",
+      "ingredientes": [
+        "pechuga de pollo",
+        "jamón serrano",
+        "queso en lonchas",
+        "pan rallado",
+        "huevos"
+      ]
+    },
+    {
+      "nombre": "Libritos de lomo",
+      "tipo": "fritos",
+      "ingredientes": [
+        "cinta de lomo fresca",
+        "jamón serrano",
+        "queso en lonchas",
+        "pan rallado",
+        "huevos"
+      ]
+    },
+    {
+      "nombre": "Berenjena con miel",
+      "tipo": "fritos",
+      "ingredientes": [
+        "berenjena",
+        "miel"
+      ]
+    },
+    {
+      "nombre": "San Jacobos",
+      "tipo": "fritos",
+      "ingredientes": [
+        "jamón cocido",
+        "queso en lonchas",
+        "pan rallado",
+        "huevos"
+      ]
+    },
+    {
+      "nombre": "Carrilleras",
+      "tipo": "carne",
+      "ingredientes": [
+        "carrilleras de cerdo",
+        "vino tinto",
+        "zanahoria",
+        "pimientos",
+        "caldo de carne"
+      ]
+    },
+    {
+      "nombre": "Huevos rotos con jamón",
+      "tipo": "huevo",
+      "ingredientes": [
+        "huevos",
+        "patatas",
+        "jamón serrano"
+      ]
+    },
+    {
+      "nombre": "Musaka",
+      "tipo": "carne roja",
+      "ingredientes": [
+        "berenjena",
+        "carne picada",
+        "queso rallado",
+        "bechamel"
+      ]
+    },
+    {
+      "nombre": "Lasaña de atún",
+      "tipo": "arroz y pasta",
+      "ingredientes": [
+        "placas de lasaña",
+        "atún en escabeche",
+        "tomate frito",
+        "queso rallado",
+        "bechamel"
+      ]
+    },
+    {
+      "nombre": "Patatas desatinás",
+      "tipo": "ensalada",
+      "ingredientes": [
+        "patatas",
+        "huevos",
+        "atún"
+      ]
+    },
+    {
+      "nombre": "Filetes de pollo empanados",
+      "tipo": "fritos",
+      "ingredientes": [
+        "pechuga de pollo",
+        "huevos",
+        "pan rallado"
+      ]
+    },
+    {
+      "nombre": "Ensalada de pasta",
+      "tipo": "ensalada",
+      "ingredientes": [
+        "pasta para ensalada",
+        "tomate",
+        "dados de queso",
+        "jamón cocido",
+        "aguacate"
+      ]
+    },
+    {
+      "nombre": "Calamares en su tinta",
+      "tipo": "pescado",
+      "ingredientes": [
+        "calamares",
+        "tinta de calamar",
+        "cebolla",
+        "vino blanco"
+      ]
+    },
+    {
+      "nombre": "Chipirones rellenos",
+      "tipo": "pescado",
+      "ingredientes": [
+        "chipirones",
+        "jamón serrano",
+        "huevos",
+        "cebolla",
+        "vino blanco"
+      ]
+    },
+    {
+      "nombre": "Merluza rebozada",
+      "tipo": "pescado",
+      "ingredientes": [
+        "merluza",
+        "huevos"
+      ]
+    },
+    {
+      "nombre": "Ensalada de garbanzos y bacalao",
+      "tipo": "ensalada",
+      "ingredientes": [
+        "garbanzos",
+        "bacalao desmigado",
+        "limón"
+      ]
+    },
     {
       "nombre": "Calabacines rellenos",
-      "tipo": "carne",
+      "tipo": "carne roja",
       "ingredientes": [
         "carne picada mixta",
         "calabacin",
@@ -13,12 +217,12 @@
     },
     {   
       "nombre": "Albóndigas en salsa de almendras",
-      "tipo": "carne",
+      "tipo": "carne roja",
       "ingredientes": [
         "carne picada mixta",
         "almendras",
         "cebolla",
-        "huevo",
+        "huevos",
         "pan",
         "nata"
       ]
@@ -52,41 +256,41 @@
     },    
     {
         "nombre": "Lentejas",
-        "tipo": "guiso",
+        "tipo": "legumbre",
         "ingredientes": [
             "lentejas",
             "cebolla",
             "compango",
             "ajo",
-            "pimiento",
+            "pimientos",
             "zanahoria",
-            "patata",
+            "patatas",
             "puerro"
         ]
     },
     {
-        "nombre": "Judías",
-        "tipo": "guiso",
+        "nombre": "Judías blancas",
+        "tipo": "legumbre",
         "ingredientes": [
-            "judías",
+            "judías blancas",
             "cebolla",
             "compango",
             "ajo",
-            "pimiento",
+            "pimientos",
             "zanahoria",
-            "patata",
+            "patatas",
             "puerro"
         ]
     },
     {
         "nombre": "Cocido",
-        "tipo": "guiso",
+        "tipo": "legumbre",
         "ingredientes": [
             "garbanzos",
             "puerro",
             "apio",
             "zanahoria",
-            "patata",
+            "patatas",
             "espinazo",
             "morcillo",
             "gallina",
@@ -97,7 +301,7 @@
     },
     {
         "nombre": "Berenjenas rellenas",
-        "tipo": "unico",
+        "tipo": "carne roja",
         "ingredientes": [
             "berenjena",
             "carne picada",
@@ -107,15 +311,15 @@
     },
     {
         "nombre": "Magro con pimientos",
-        "tipo": "segundo",
+        "tipo": "carne blanca",
         "ingredientes": [
             "cerdo",
-            "pimiento"
+            "pimientos"
         ]
     },
     {
         "nombre": "Pollo con setas",
-        "tipo": "unico",
+        "tipo": "aves",
         "ingredientes": [
             "pollo",
             "setas",
@@ -124,18 +328,18 @@
         ]
     },
     {
-        "nombre": "Carbonara",
-        "tipo": "unico",
+        "nombre": "Pasta carbonara",
+        "tipo": "arroz y pasta",
         "ingredientes": [
-            "pollo",
+            "pechuga de pollo",
             "pasta",
             "bacon",
             "nata"
         ]
     },
     {
-        "nombre": "Bolognesa",
-        "tipo": "unico",
+        "nombre": "Pasta bolognesa",
+        "tipo": "arroz y pasta",
         "ingredientes": [
             "carne picada",
             "tomate frito",
@@ -144,7 +348,7 @@
     },
     {
         "nombre": "Pavo con manzana",
-        "tipo": "segundo",
+        "tipo": "aves",
         "ingredientes": [
             "pavo",
             "puerro",
@@ -154,22 +358,22 @@
     },
     {
         "nombre": "Estofado",
-        "tipo": "guiso",
+        "tipo": "carne roja",
         "ingredientes": [
             "ternera",
             "tomate",
             "zanahoria",
             "cebolla",
             "ajo",
-            "patata",
+            "patatas",
             "vino tinto"
         ]
     },
     {
         "nombre": "Ensaladilla",
-        "tipo": "unico",
+        "tipo": "ensalada",
         "ingredientes": [
-            "patata",
+            "patatas",
             "huevos",
             "encurtidos",
             "zanahoria",
@@ -179,9 +383,9 @@
     },
     {
         "nombre": "Ensaladilla ahumados",
-        "tipo": "unico",
+        "tipo": "ensalada",
         "ingredientes": [
-            "patata",
+            "patatas",
             "huevos",
             "encurtidos",
             "zanahoria",
@@ -194,23 +398,23 @@
     },
     {
         "nombre": "Albóndigas",
-        "tipo": "unico",
+        "tipo": "carne roja",
         "ingredientes": [
             "carne picada",
             "ajo",
             "pan rallado",
-            "huevo",
+            "huevos",
             "cebolla",
             "zanahoria"
         ]
     },
     {
         "nombre": "Pollo al chilindrón",
-        "tipo": "unico",
+        "tipo": "aves",
         "ingredientes": [
             "pollo",
             "almendras",
-            "pimiento",
+            "pimientos",
             "cebolla",
             "ajo",
             "vino blanco",
@@ -220,16 +424,148 @@
     },
     {
         "nombre": "Pollo asado",
-        "tipo": "unico",
+        "tipo": "aves",
         "ingredientes": [
             "pollo entero",
             "vino blanco",
-            "patata",
+            "patatas",
             "cebolla"
         ]
     }
   ],
   "cenas": [  
+    {
+      "nombre": "Brocheta de rape y langostinos",
+      "tipo": "pescado",
+      "ingredientes": [
+        "rape",
+        "langostinos"
+      ]
+    },       
+    {
+      "nombre": "Ensalada de tomate y mozzarella",
+      "tipo": "ensalada",
+      "ingredientes": [
+        "tomate",
+        "mozzarella fresca"
+      ]
+    },       
+    {
+      "nombre": "Contramuslos de pollo con limón",
+      "tipo": "aves",
+      "ingredientes": [
+        "contramuslos de pollo",
+        "limón"
+      ]
+    },       
+    {
+      "nombre": "Pavo adobado a la plancha",
+      "tipo": "aves",
+      "ingredientes": [
+        "pavo adobado"
+      ]
+    },       
+    {
+      "nombre": "Setas rebozadas con alioli y jamón",
+      "tipo": "fritos",
+      "ingredientes": [
+        "setas",
+        "alioli",
+        "jamón serrano",
+        "pan rallado",
+        "huevos"
+      ]
+    },       
+    {
+      "nombre": "Tosta de secreto y brie",
+      "tipo": "carne blanca",
+      "ingredientes": [
+        "secreto ibérico",
+        "queso brie",
+        "pan"
+      ]
+    },       
+    {
+      "nombre": "Empanadillas de atún",
+      "tipo": "fritos",
+      "ingredientes": [
+        "masa de empanadillas",
+        "atún en escabeche",
+        "huevos"
+      ]
+    },       
+    {
+      "nombre": "Bacalao rebozado",
+      "tipo": "pescado",
+      "ingredientes": [
+        "lomos de bacalao"
+      ]
+    },       
+    {
+      "nombre": "Salmonetes fritos",
+      "tipo": "pescado",
+      "ingredientes": [
+        "salmonetes"
+      ]
+    },       
+    {
+      "nombre": "Boquerones fritos",
+      "tipo": "pescado",
+      "ingredientes": [
+        "boquerones"
+      ]
+    },       
+    {
+      "nombre": "Coliflor con bechamel",
+      "tipo": "verdura",
+      "ingredientes": [
+        "coliflor",
+        "bechamel"
+      ]
+    },       
+    {
+      "nombre": "Brócoli rehogado",
+      "tipo": " verdura",
+      "ingredientes": [
+        "brócoli"
+      ]
+    },       
+    {
+      "nombre": "Ensalada templada de espinacas",
+      "tipo": "ensalada",
+      "ingredientes": [
+        "espinacas frescas",
+        "queso de cabra",
+        "nueces",
+        "bacon"
+      ]
+    },       
+    {
+      "nombre": "Espinacas a la crema",
+      "tipo": "verdura",
+      "ingredientes": [
+        "espinacas",
+        "bechamel",
+        "jamón serrano"
+      ]
+    },
+    {
+      "nombre": "Calamares a la plancha",
+      "tipo": "pescado",
+      "ingredientes": [
+        "calamares"
+      ]
+    },
+    {
+      "nombre": "San jacobos de calabacín",
+      "tipo": "verdura",
+      "ingredientes": [
+        "calabacín",
+        "jamón cocido",
+        "queso",
+        "huevos"
+      ]
+    },
     {
       "nombre": "Ensalada de gambas, aguacate y piña",
       "tipo": "ensalada",
@@ -242,7 +578,7 @@
     },
     {
       "nombre": "Hamburguesas de pollo, queso y espinacas",
-      "tipo": "carne",
+      "tipo": "aves",
       "ingredientes": [
         "pechuga de pollo",
         "parmesano",
@@ -274,7 +610,7 @@
       "tipo": "verdura",
       "ingredientes": [
         "judias verdes",
-        "patata"
+        "patatas"
       ]
     },
     {
@@ -283,13 +619,13 @@
       "ingredientes": [
         "salmón ahumado",
         "pan",
-        "huevo",
+        "huevos",
         "philadelphia"
       ]
     },
     {
       "nombre": "Tosta de solomillo",
-      "tipo": "carne",
+      "tipo": "carne blanca",
       "ingredientes": [
         "pan",
         "solomillo de cerdo",
@@ -302,7 +638,7 @@
       "ingredientes": [
         "aguacate",
         "salmón ahumado",
-        "huevo",
+        "huevos",
         "pan de molde"
       ]
     },
@@ -311,7 +647,7 @@
       "tipo": "huevo",
       "ingredientes": [
         "huevos",
-        "patata",
+        "patatas",
         "cebolla"
       ]
     },
@@ -330,7 +666,7 @@
       "tipo": "verdura",
       "ingredientes": [
         "acelgas",
-        "huevo"
+        "huevos"
       ]
     },
     {
@@ -356,7 +692,7 @@
     },
     {
       "nombre": "Embutido",
-      "tipo": "carne",
+      "tipo": "carne blanca",
       "ingredientes": [
         "embutido",
         "pan",
