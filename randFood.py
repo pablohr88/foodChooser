@@ -30,13 +30,8 @@ with open("menu.html", "w", encoding='windows-1252') as file:
 
     print('<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//ES" \
         "http://www.w3.org/TR/html4/loose.dtd">\n<html>\n<head>\n\t<link \
-        rel="stylesheet" href="style.css">\n\t<meta charset="WINDOWS-1252">\n\t<style>\
-        \n\ttable, th, td {border-style: solid; border-width: 2px}\n\t\
-        #cabecera{font-family: "Palatino Linotype", "Book Antiqua", Palatino, \
-        serif; text-transform: uppercase; color: darkslategray; text-align: \
-        center}\n\t#cuerpo{font-family: "Palatino Linotype", "Book Antiqua", \
-        Palatino, serif; font-weight: 50; text-align: left}\n\t</style></head>\
-        \n<body>')
+        rel="stylesheet" href="style.css">\n\t<meta charset="WINDOWS-1252">\n\t\
+        </head>\n<body>')
     print("\t<table>")
     print('\t\t<tr id="cabecera"><th>Dí­a</th><th>Comida</th><th>Cena</th></tr>')
     for i in range(weekDays):
