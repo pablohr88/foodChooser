@@ -13,11 +13,11 @@ from email.mime.text import MIMEText
 
 def generateMenu():
   css = ''
-  with open("style.css") as file:
+  with open("./style.css") as file:
     css = file.read()
   random.seed(int(time.time() * 1000))
   weekDays = 5
-  comidas = json.load(open("comidas.json", encoding='windows-1252'))
+  comidas = json.load(open("./comidas.json", encoding='windows-1252'))
 
   ingredientes = []
   randComidas = list(random.sample(range(0, len(comidas["comidas"])), weekDays))
@@ -70,7 +70,7 @@ def sendEmail(emailUser, emailPwd, emailDest):
   msg['From'] = emailUser
   msg['To'] = emailDest
 
-  with open("menu.html", "r", encoding='windows-1252') as file:
+  with open("./menu.html", "r", encoding='windows-1252') as file:
     text = file.read().replace('\n', '')
     file.seek(0)
     html = file.read()
@@ -93,7 +93,8 @@ def main():
   EMAIL_PWD = "menu.semanal"
   EMAIL_DIRS = ["pablohr88@gmail.com, albacp89@gmail.com",
                 "stellapadillasanchez@yahoo.es",
-                "maui_maui89@gmail.com, maribum2001@yahoo.com"]
+                "maui_maui89@hotmail.com",
+                "maribum2001@yahoo.com"]
   for emailDest in EMAIL_DIRS:
     generateMenu()
     sendEmail(EMAIL_USER, EMAIL_PWD, emailDest)
